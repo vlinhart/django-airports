@@ -45,13 +45,13 @@ readme = open('README.rst').read()
 history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
 setup(
-    name='django-airports',
+    name='django-airports-legacy',
     version=version,
     description=""" It's like django-cities, but django-airports """,
     long_description=readme + '\n\n' + history,
     author='Antonio Ercole De Luca',
     author_email='eracle@posteo.eu',
-    url='https://github.com/eracle/django-airports',
+    url='https://github.com/vlinhart/django-airports-legacy',
     packages=[
         'airports',
     ],
@@ -62,7 +62,7 @@ setup(
     ],
     license="MIT",
     zip_safe=False,
-    keywords='django-airports',
+    keywords='django-airports-legacy',
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Framework :: Django',
