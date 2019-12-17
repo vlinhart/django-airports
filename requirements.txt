@@ -1,3 +1,4 @@
 django-model-utils>=2.0
 # Additional requirements go here
-django-cities>=0.5
+-e git+https://github.com/mxschmitt/django-cities.git@2c626b6c970259823c0b888ff278fdcbc8282f2c#egg=django-cities
+six==1.12.0
