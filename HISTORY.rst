@@ -3,6 +3,13 @@
 History
 -------
 
+0.2.2 (2020-10-01)
+++++++++++++++++++
+
+* upstream django-cities==0.6 requirement
+* better doc on installation
+
+
 0.2.1 (2019-12-17)
 ++++++++++++++++++
 
